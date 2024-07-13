@@ -1,1 +1,23 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Facebook",
+      "href": "#"
+    },
+    {
+      "network": "Instagram",
+      "href": "#"
+    }
+  ],
+  "subscribe": {
+    "title": "Newsletter",
+    "description": "Cadastre-se e fique por dentro das novidades"
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11560/24dd2866-18ed-4af3-b54b-812dd0487d23",
+    "alt": "Viamia"
+  }
+}

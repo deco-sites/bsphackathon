@@ -104,5 +104,13 @@
   "/.deco/blocks/Vanilla.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/new.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F6d54b6d4ca8d.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "collections/blog/posts/6d54b6d4ca8d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "title": "teste",
+    "excerpt": "teste",
+    "date": "2024-07-13",
+    "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nihil exercitationem illum error officia minus recusandae illo iste? Ratione vel laboriosam quod inventore molestiae dolorem animi tenetur aperiam, ex voluptas?</p>"
+  }
+}

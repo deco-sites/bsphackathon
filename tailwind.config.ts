@@ -9,12 +9,17 @@ export default {
     extend: {
       animation: {
         sliding: "sliding 30s linear infinite",
+        slidingfast: "sliding 15s linear infinite"
       },
       keyframes: {
         sliding: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        slidingfast: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        }
       },
     },
   },
