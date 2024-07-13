@@ -1,1 +1,33 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Moda",
+        "url": "#"
+      },
+      {
+        "label": "Beleza"
+      },
+      {
+        "label": "Bem estar",
+        "url": "#"
+      },
+      {
+        "label": "Coleções",
+        "url": "#"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "comprar",
+        "href": "https://www.viamia.com.br/",
+        "text": "Comprar na loja",
+        "outline": false
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11560/24dd2866-18ed-4af3-b54b-812dd0487d23"
+  }
+}

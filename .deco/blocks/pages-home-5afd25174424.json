@@ -1,42 +1,58 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Banner.tsx",
+      "image": "https://viamia.vteximg.com.br/arquivos/ids/352452/banner_principal_FS-saltos_desktop.jpg",
+      "alt": "Saltos 40%",
+      "link": "#"
+    },
+    {
+      "__resolveType": "site/sections/MiddleVideo.tsx",
+      "video01": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11560/3ecbe4ca-4687-4c9f-9818-94a0f13d301a",
+      "title01": "Recebidos dela",
+      "content01": "<p>Lorem ipsum <strong>dolor </strong>sit amet consectetur adipisicing elit. Eos expedita nobis rerum autem nam magni omnis provident, temporibus natus, ad reprehenderit quae vel. Quod accusamus placeat culpa qui at non!</p>",
+      "content02": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita nobis rerum autem nam magni omnis provident, temporibus natus, ad reprehenderit quae vel. Quod accusamus placeat culpa qui at non!</p>",
+      "content03": "<p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. Eos expedita nobis rerum autem nam magni omnis provident, temporibus natus, ad reprehenderit quae vel. Quod accusamus placeat culpa qui at non!</p>",
+      "video02": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11560/a73ab66f-75cf-4a30-a5cb-50c7c05da4dc",
+      "video03": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11560/fd0bfdfa-0f3f-4786-929c-f3dba6f9539a",
+      "title03": "Lorem ipsum",
+      "title02": "Lorem ipsum"
+    },
+    {
+      "__resolveType": "site/sections/SlidingText.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ColorContent.tsx",
+      "items": [
+        {
+          "content": "Essa bolsa é super compacta! Ela tem o formato retangular, é feita de tecido de lona e possui um detalhe trançado na parte da frente da bolsa. Tem fechamento de zíper, alça tiracolo regulável e plaquinha Via Mia de metal. Material: tecido. Nas cores: azul, Camel e vermelho. Medidas: 12cm de altura, 18cm de largura e 6cm de profundidade.",
+          "title": "Bolsa Retangular",
+          "image": "https://viamia.vteximg.com.br/arquivos/ids/346039-850-1100/002000501950039_2-BTC-0637.jpg?v=638501085295500000"
+        },
+        {
+          "image": "https://viamia.vteximg.com.br/arquivos/ids/351107-850-1100/001000401030025_2-MC-0443.jpg?v=638530375675530000",
+          "content": "Esse mocassim estilo Top Sider é mais uma das apostas do nosso time de estilo! Um item que nunca sai de moda e é super prático para o dia a dia.",
+          "title": "Mocassim Top Slider",
+          "color": "#ffc2c2"
+        }
+      ],
+      "title": "O que está em alta"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
